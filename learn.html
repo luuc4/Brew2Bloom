@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Field notes from Brew2Bloom — soil science, urban gardening how-tos, café partner stories. Learn while you grow." />
+<meta name="theme-color" content="#1A1A1A" />
+<title>Learn — Brew2Bloom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231A1A1A'/%3E%3Cellipse cx='16' cy='18' rx='6' ry='8' fill='%23B85C38'/%3E%3Cpath d='M16 12v14' stroke='%23F5F5DC' stroke-width='1' stroke-linecap='round'/%3E%3Cellipse cx='17' cy='9' rx='4' ry='2' transform='rotate(-25 17 9)' fill='%23B4D3B2'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-logo">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <ellipse cx="16" cy="18" rx="6" ry="8" fill="#B85C38"/>
+          <path d="M16 12v14" stroke="#F5F5DC" stroke-width="1" stroke-linecap="round"/>
+          <ellipse cx="17" cy="9" rx="4" ry="2" transform="rotate(-25 17 9)" fill="#B4D3B2"/>
+          <ellipse cx="14" cy="7.5" rx="3" ry="1.4" transform="rotate(20 14 7.5)" fill="#6FA86C"/>
+        </svg>
+      </span>
+      <span class="brand-name">Brew2Bloom</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="map.html">Map</a>
+      <a href="learn.html">Learn</a>
+      <a href="impact.html">Impact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="shop.html" class="btn btn-small">Get the Kit</a>
+      <button class="nav-toggle" aria-label="Menu"><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="map.html">Map</a>
+    <a href="learn.html">Learn</a>
+    <a href="impact.html">Impact</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-header">
+    <div class="page-header-inner">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Learn</p>
+      <p class="eyebrow">Field Notes</p>
+      <h1>Learn while you grow.</h1>
+      <p>Short reads on soil science, indoor gardening hacks, and the people behind the loop. Updated every Friday.</p>
+    </div>
+  </section>
+
+  <!-- Featured -->
+  <section>
+    <div class="blog-featured">
+      <div class="article-image" data-reveal>
+        <svg viewBox="0 0 200 150" fill="none" style="width:100%; height:100%;">
+          <rect width="200" height="150" fill="url(#bg-grad)"/>
+          <defs>
+            <linearGradient id="bg-grad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#6FA86C"/>
+              <stop offset="100%" stop-color="#B4D3B2"/>
+            </linearGradient>
+          </defs>
+          <ellipse cx="100" cy="80" rx="32" ry="55" fill="#6FA86C"/>
+          <ellipse cx="100" cy="80" rx="22" ry="44" fill="#B4D3B2" opacity="0.6"/>
+          <path d="M100 25 V135" stroke="#1A1A1A" stroke-width="1" opacity="0.3"/>
+          <ellipse cx="100" cy="80" rx="14" ry="36" fill="#6FA86C" opacity="0.7"/>
+          <circle cx="60" cy="40" r="3" fill="#F5F5DC" opacity="0.6"/>
+          <circle cx="150" cy="60" r="2" fill="#F5F5DC" opacity="0.6"/>
+          <circle cx="160" cy="100" r="2.5" fill="#F5F5DC" opacity="0.5"/>
+        </svg>
+      </div>
+      <div data-reveal data-reveal-delay="1">
+        <span class="article-cat">Featured · Soil Science</span>
+        <h2>Why cucumbers love coffee.</h2>
+        <p class="lede">Acidity, nitrogen, drainage. Three reasons your vines will thrive on yesterday's espresso — and one common mistake to avoid.</p>
+        <p style="color: var(--ink-soft); margin: 0 0 1.6rem;">
+          Spent coffee grounds are nearly pH-neutral once brewed (around 6.5),
+          which is exactly what cucurbits prefer. They release nitrogen slowly,
+          improve cation exchange, and aerate compacted balcony soil. Done right,
+          they replace half of your standard potting mix — done wrong, they
+          compact and starve roots of oxygen…
+        </p>
+        <a href="#" class="btn">Read the article <span class="arrow">→</span></a>
+        <p style="font-family: var(--f-head); color: var(--ink-mute); font-size: 0.86rem; margin-top: 1.2rem;">5 min read · 02 May 2026</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories + grid -->
+  <section class="bg-paper-2">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">All Field Notes</p>
+      <h2>Pick a topic.</h2>
+    </div>
+
+    <div class="blog-categories" data-reveal>
+      <button class="active" data-cat="all">All</button>
+      <button data-cat="soil">Soil Science</button>
+      <button data-cat="howto">How-To</button>
+      <button data-cat="community">Community</button>
+      <button data-cat="business">Behind Brew2Bloom</button>
+    </div>
+
+    <div class="article-grid">
+      <a href="#" class="article-card" data-cat="soil" data-reveal>
+        <div class="article-image" style="background: linear-gradient(135deg, #6FA86C, #B4D3B2);">
+          <svg viewBox="0 0 100 100" fill="none">
+            <ellipse cx="50" cy="50" rx="20" ry="35" fill="#6FA86C"/>
+            <ellipse cx="50" cy="50" rx="14" ry="28" fill="#B4D3B2" opacity="0.5"/>
+          </svg>
+        </div>
+        <span class="article-cat">Soil Science</span>
+        <h3>The pH question, finally answered.</h3>
+        <p>Why your grounds aren't actually as acidic as Instagram says.</p>
+        <div class="article-meta"><span>4 min</span><span>02 May</span></div>
+      </a>
+
+      <a href="#" class="article-card" data-cat="howto" data-reveal data-reveal-delay="1">
+        <div class="article-image" style="background: linear-gradient(135deg, #B85C38, #E0A782);">
+          <svg viewBox="0 0 100 100" fill="none">
+            <rect x="25" y="35" width="50" height="50" rx="6" fill="#5A2810"/>
+            <ellipse cx="50" cy="55" rx="18" ry="3" fill="#B85C38"/>
+            <ellipse cx="50" cy="65" rx="20" ry="3" fill="#8C3D1F"/>
+          </svg>
+        </div>
+        <span class="article-cat">How-To</span>
+        <h3>Indoor compost without the smell.</h3>
+        <p>A four-step setup that fits under any kitchen sink.</p>
+        <div class="article-meta"><span>8 min</span><span>24 Apr</span></div>
+      </a>
+
+      <a href="#" class="article-card" data-cat="community" data-reveal data-reveal-delay="2">
+        <div class="article-image" style="background: linear-gradient(135deg, #1A1A1A, #B85C38);">
+          <svg viewBox="0 0 100 100" fill="none">
+            <circle cx="35" cy="40" r="14" fill="#B4D3B2"/>
+            <circle cx="35" cy="36" r="4" fill="#1A1A1A"/>
+            <circle cx="65" cy="40" r="14" fill="#E0A782"/>
+            <circle cx="65" cy="36" r="4" fill="#1A1A1A"/>
+            <path d="M25 70 Q50 80 75 70" stroke="#F5F5DC" stroke-width="2" fill="none"/>
+          </svg>
+        </div>
+        <span class="article-cat">Community</span>
+        <h3>Meet the baristas saving 50 kg a month.</h3>
+        <p>Behind the counter at Café Roest in Kreuzberg.</p>
+        <div class="article-meta"><span>6 min</span><span>18 Apr</span></div>
+      </a>
+
+      <a href="#" class="article-card" data-cat="howto" data-reveal>
+        <div class="article-image" style="background: linear-gradient(135deg, #B4D3B2, #F5F5DC);">
+          <svg viewBox="0 0 100 100" fill="none">
+            <path d="M50 80 V40" stroke="#6FA86C" stroke-width="3" stroke-linecap="round"/>
+            <ellipse cx="38" cy="58" rx="12" ry="4" transform="rotate(-25 38 58)" fill="#B4D3B2"/>
+            <ellipse cx="62" cy="50" rx="14" ry="5" transform="rotate(30 62 50)" fill="#6FA86C"/>
+            <circle cx="20" cy="25" r="3" fill="#FFD700"/>
+          </svg>
+        </div>
+        <span class="article-cat">How-To</span>
+        <h3>Salad greens in 18 days flat.</h3>
+        <p>The cut-and-come-again method, taught by a Wedding gardener.</p>
+        <div class="article-meta"><span>5 min</span><span>11 Apr</span></div>
+      </a>
+
+      <a href="#" class="article-card" data-cat="soil" data-reveal data-reveal-delay="1">
+        <div class="article-image" style="background: linear-gradient(135deg, #5A2810, #B85C38);">
+          <svg viewBox="0 0 100 100" fill="none">
+            <circle cx="50" cy="50" r="22" fill="#1A1A1A"/>
+            <circle cx="50" cy="50" r="14" fill="#3F1A08"/>
+            <path d="M50 28 V72 M28 50 H72" stroke="#B85C38" stroke-width="1" opacity="0.5"/>
+          </svg>
+        </div>
+        <span class="article-cat">Soil Science</span>
+        <h3>What is biochar, really?</h3>
+        <p>The 3,000-year-old material making your kit work in 2026.</p>
+        <div class="article-meta"><span>7 min</span><span>04 Apr</span></div>
+      </a>
+
+      <a href="#" class="article-card" data-cat="business" data-reveal data-reveal-delay="2">
+        <div class="article-image" style="background: linear-gradient(135deg, #B85C38, #1A1A1A);">
+          <svg viewBox="0 0 100 100" fill="none">
+            <rect x="20" y="30" width="60" height="50" rx="4" fill="#F5F5DC"/>
+            <rect x="30" y="40" width="40" height="3" fill="#1A1A1A"/>
+            <rect x="30" y="48" width="30" height="3" fill="#76706A"/>
+            <rect x="30" y="56" width="35" height="3" fill="#76706A"/>
+            <rect x="30" y="64" width="20" height="3" fill="#B85C38"/>
+          </svg>
+        </div>
+        <span class="article-cat">Behind Brew2Bloom</span>
+        <h3>Where every euro goes.</h3>
+        <p>Our radical transparency report, line by line.</p>
+        <div class="article-meta"><span>10 min</span><span>27 Mar</span></div>
+      </a>
+
+      <a href="#" class="article-card" data-cat="community" data-reveal>
+        <div class="article-image" style="background: linear-gradient(135deg, #6FA86C, #1A1A1A);">
+          <svg viewBox="0 0 100 100" fill="none">
+            <circle cx="30" cy="50" r="10" fill="#B4D3B2"/>
+            <circle cx="50" cy="40" r="10" fill="#E0A782"/>
+            <circle cx="70" cy="50" r="10" fill="#B4D3B2"/>
+            <circle cx="50" cy="65" r="10" fill="#F5F5DC"/>
+          </svg>
+        </div>
+        <span class="article-cat">Community</span>
+        <h3>The Sunday cucumber dinner.</h3>
+        <p>Fifty subscribers brought their harvest to one long table in Wedding.</p>
+        <div class="article-meta"><span>4 min</span><span>20 Mar</span></div>
+      </a>
+
+      <a href="#" class="article-card" data-cat="howto" data-reveal data-reveal-delay="1">
+        <div class="article-image" style="background: linear-gradient(135deg, #E0A782, #1A1A1A);">
+          <svg viewBox="0 0 100 100" fill="none">
+            <ellipse cx="50" cy="60" rx="32" ry="14" fill="#5A2810"/>
+            <ellipse cx="50" cy="60" rx="26" ry="9" fill="#B85C38"/>
+            <path d="M30 38 Q35 28 40 38" stroke="#F5F5DC" stroke-width="2" fill="none"/>
+            <path d="M48 35 Q53 25 58 35" stroke="#F5F5DC" stroke-width="2" fill="none"/>
+            <path d="M64 40 Q69 30 74 40" stroke="#F5F5DC" stroke-width="2" fill="none"/>
+          </svg>
+        </div>
+        <span class="article-cat">How-To</span>
+        <h3>Drying your own grounds at home.</h3>
+        <p>For when you can't make it to a partner café this week.</p>
+        <div class="article-meta"><span>3 min</span><span>14 Mar</span></div>
+      </a>
+
+      <a href="#" class="article-card" data-cat="business" data-reveal data-reveal-delay="2">
+        <div class="article-image" style="background: linear-gradient(135deg, #B4D3B2, #6FA86C);">
+          <svg viewBox="0 0 100 100" fill="none">
+            <path d="M50 20 A30 30 0 1 1 20 50" stroke="#1A1A1A" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <path d="M48 16 L53 20 L48 24" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <circle cx="50" cy="50" r="6" fill="#B85C38"/>
+          </svg>
+        </div>
+        <span class="article-cat">Behind Brew2Bloom</span>
+        <h3>Why we say no to plastic.</h3>
+        <p>The packaging audit that almost killed our launch.</p>
+        <div class="article-meta"><span>6 min</span><span>07 Mar</span></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="wrap" data-reveal>
+      <p class="eyebrow on-dark" style="justify-content: center; display: flex;">Stay in the loop</p>
+      <h2>One field note a week. No spam.</h2>
+      <p>Get our best how-tos, soil science deep-dives and partner stories every Friday morning.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="you@brew.bloom" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <p class="newsletter-fine">Unsubscribe with one click. We'll never share your email.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <a href="index.html" class="brand">
+        <span class="brand-logo">
+          <svg viewBox="0 0 32 32" fill="none">
+            <ellipse cx="16" cy="18" rx="6" ry="8" fill="#B85C38"/>
+            <path d="M16 12v14" stroke="#F5F5DC" stroke-width="1" stroke-linecap="round"/>
+            <ellipse cx="17" cy="9" rx="4" ry="2" transform="rotate(-25 17 9)" fill="#B4D3B2"/>
+          </svg>
+        </span>
+        <span class="brand-name">Brew2Bloom</span>
+      </a>
+      <p class="footer-tag">Brew. Grow. Repeat. — Made in Berlin from grounds, not waste.</p>
+    </div>
+    <div>
+      <p class="footer-head">Shop</p>
+      <a href="shop.html">Starter Kit</a>
+      <a href="shop.html#subscribe">Subscription</a>
+      <a href="shop.html#workshops">Workshops</a>
+      <a href="shop.html#merch">Merch</a>
+    </div>
+    <div>
+      <p class="footer-head">About</p>
+      <a href="impact.html">Impact &amp; transparency</a>
+      <a href="map.html">Map</a>
+      <a href="learn.html">Field notes</a>
+    </div>
+    <div>
+      <p class="footer-head">Follow</p>
+      <a href="#">Instagram</a>
+      <a href="#">Newsletter</a>
+      <a href="mailto:hello@brew2bloom.de">hello@brew2bloom.de</a>
+    </div>
+  </div>
+  <div class="footer-fine">
+    <span>© 2026 Brew2Bloom — Berlin</span>
+    <span><a href="#">Imprint</a> · <a href="#">Privacy</a> · <a href="#">Terms</a></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
