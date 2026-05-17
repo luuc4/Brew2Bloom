@@ -780,6 +780,7 @@ section { padding: clamp(3.5rem, 8vw, 6.5rem) var(--gutter); }
 }
 
 .product-image svg { width: 60%; height: 60%; }
+.product-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
 .product-card h3 { font-size: 1.4rem; margin: 0 0 0.5rem; }
 .product-card.feature h3 { font-size: 2rem; }
@@ -1366,6 +1367,7 @@ section { padding: clamp(3.5rem, 8vw, 6.5rem) var(--gutter); }
 }
 
 .kit-gallery svg { width: 70%; height: 70%; position: relative; }
+.kit-gallery img { width: 100%; height: 100%; object-fit: cover; display: block; position: relative; }
 
 .kit-detail h1 {
   font-size: clamp(2rem, 4vw, 3rem);

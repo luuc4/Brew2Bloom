@@ -17,7 +17,7 @@ python3 -m http.server 8000
 |---|---|
 | `index.html` | Hero, mission, the loop, products, partners, testimonials, newsletter |
 | `shop.html` | Starter kit detail, subscription plans, workshop schedule, merch, FAQ |
-| `map.html` | Interactive Berlin map (Leaflet + OpenStreetMap) |
+| `map.html` | Interactive Vorarlberg map (Leaflet + OpenStreetMap) |
 | `learn.html` | Field notes blog grid with category filter |
 | `impact.html` | Quarterly impact report, allocation breakdown, NGO partners |
 
