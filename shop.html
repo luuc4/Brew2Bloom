@@ -64,7 +64,23 @@
   <section id="kit">
     <div class="kit-detail-grid">
       <div class="kit-gallery" data-reveal>
-        <img src="starterkit-1.jpeg" alt="The Brew2Bloom Urban Grow Kit box" />
+        <div class="kit-gallery-main">
+          <img id="kitMainImg" src="starterkit-1.jpeg" alt="The Brew2Bloom Urban Grow Kit box" />
+        </div>
+        <div class="kit-gallery-thumbs">
+          <button type="button" class="kit-thumb active" data-src="starterkit-1.jpeg" aria-label="Show the kit box">
+            <img src="starterkit-1.jpeg" alt="Urban Grow Kit box" />
+          </button>
+          <button type="button" class="kit-thumb" data-src="starterkit-2.jpeg" aria-label="Show the jute carry bag">
+            <img src="starterkit-2.jpeg" alt="Jute carry bag" />
+          </button>
+          <button type="button" class="kit-thumb" data-src="starterkit-3.jpeg" aria-label="Show the ceramic mug">
+            <img src="starterkit-3.jpeg" alt="Ceramic mug" />
+          </button>
+          <button type="button" class="kit-thumb" data-src="starterkit-4.jpeg" aria-label="Show the cotton tee">
+            <img src="starterkit-4.jpeg" alt="Cotton tee" />
+          </button>
+        </div>
       </div>
 
       <div class="kit-detail" data-reveal data-reveal-delay="1">
@@ -102,7 +118,7 @@
 
         <div class="kit-cta">
           <a href="#" class="btn">Add to cart — €34 <span class="arrow">→</span></a>
-          <a href="#kit-info" class="btn btn-ghost">More details</a>
+          <a href="#faq" class="btn btn-ghost">More details</a>
         </div>
 
         <div class="kit-bullets">
@@ -227,8 +243,18 @@
 
     <div class="products-grid">
       <article class="product-card" data-reveal>
-        <div class="product-image">
-          <img src="starterkit-2.jpeg" alt="Brew2Bloom jute carry bag" />
+        <div class="product-image" style="background: linear-gradient(135deg, #E0A782, #B85C38);">
+          <svg viewBox="0 0 200 200" fill="none">
+            <path d="M50 70 L150 70 L160 170 L40 170 Z" fill="#5A2810"/>
+            <path d="M50 70 L150 70 L160 170 L40 170 Z" fill="url(#jute)"/>
+            <defs>
+              <pattern id="jute" patternUnits="userSpaceOnUse" width="6" height="6">
+                <path d="M0 3 L6 3 M3 0 L3 6" stroke="#3F1A08" stroke-width="0.5" opacity="0.4"/>
+              </pattern>
+            </defs>
+            <path d="M70 70 Q70 40 100 40 Q130 40 130 70" stroke="#3F1A08" stroke-width="6" fill="none"/>
+            <text x="100" y="125" text-anchor="middle" fill="#F5F5DC" font-family="Space Grotesk" font-size="14" font-weight="700" letter-spacing="2">B2B</text>
+          </svg>
         </div>
         <h3>Jute Carry Bag</h3>
         <p class="product-desc">100% jute, screen-printed in Vorarlberg. The right size to hold a refill, a kit, or your own grounds on the way home.</p>
@@ -239,8 +265,16 @@
       </article>
 
       <article class="product-card" data-reveal data-reveal-delay="1">
-        <div class="product-image">
-          <img src="starterkit-4.jpeg" alt="Brew2Bloom recycled cotton t-shirt" />
+        <div class="product-image" style="background: linear-gradient(135deg, #B4D3B2, #6FA86C);">
+          <svg viewBox="0 0 200 200" fill="none">
+            <rect x="55" y="80" width="90" height="100" rx="6" fill="#1A1A1A"/>
+            <text x="100" y="125" text-anchor="middle" fill="#F5F5DC" font-family="Space Grotesk" font-size="11" font-weight="700">BREW</text>
+            <text x="100" y="142" text-anchor="middle" fill="#F5F5DC" font-family="Space Grotesk" font-size="11" font-weight="700">GROW</text>
+            <text x="100" y="159" text-anchor="middle" fill="#B4D3B2" font-family="Space Grotesk" font-size="11" font-style="italic" font-weight="700">REPEAT</text>
+            <path d="M55 80 L65 70 L135 70 L145 80" stroke="#1A1A1A" stroke-width="2" fill="none"/>
+            <ellipse cx="55" cy="120" rx="6" ry="14" fill="#1A1A1A"/>
+            <ellipse cx="145" cy="120" rx="6" ry="14" fill="#1A1A1A"/>
+          </svg>
         </div>
         <h3>Recycled Cotton Tee</h3>
         <p class="product-desc">Soft, ethically made in Europe. Vine print in Sprout green. Sizes XS — XXL.</p>
@@ -251,8 +285,13 @@
       </article>
 
       <article class="product-card" data-reveal data-reveal-delay="2">
-        <div class="product-image">
-          <img src="starterkit-3.jpeg" alt="Brew2Bloom ceramic mug — Brew. Grow. Repeat." />
+        <div class="product-image" style="background: linear-gradient(135deg, #F5F5DC, #B4D3B2);">
+          <svg viewBox="0 0 200 200" fill="none">
+            <path d="M60 70 H140 V160 Q140 175 100 175 Q60 175 60 160 Z" fill="#B85C38"/>
+            <ellipse cx="100" cy="70" rx="40" ry="6" fill="#8C3D1F"/>
+            <path d="M140 90 Q160 90 160 110 Q160 130 140 130" stroke="#B85C38" stroke-width="6" fill="none"/>
+            <text x="100" y="135" text-anchor="middle" fill="#F5F5DC" font-family="Space Grotesk" font-size="14" font-weight="700">B2B</text>
+          </svg>
         </div>
         <h3>Ceramic Mug</h3>
         <p class="product-desc">Hand-thrown in a Bregenzerwald pottery, glazed in earth tones. Holds 280 ml — the right size for a flat white.</p>
