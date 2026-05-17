@@ -123,17 +123,17 @@ document.querySelectorAll(".blog-categories button").forEach((btn) => {
 const mapEl = document.getElementById("leaflet-map");
 if (mapEl && typeof L !== "undefined") {
   const locations = [
-    { id: 1, name: "Café Roest", type: "drop", lat: 52.4982, lng: 13.4248, addr: "Wrangelstr. 18, Kreuzberg", note: "Saves 50 kg of grounds every month." },
-    { id: 2, name: "Bloom Hub Mitte", type: "pickup", lat: 52.5267, lng: 13.4035, addr: "Brunnenstr. 192, Mitte", note: "Pick up your kit & substrate refills." },
-    { id: 3, name: "Drip & Co", type: "drop", lat: 52.4853, lng: 13.4437, addr: "Sonnenallee 67, Neukölln", note: "Daily 3kg of premium grounds." },
-    { id: 4, name: "The Loop", type: "drop", lat: 52.5310, lng: 13.4108, addr: "Torstr. 102, Mitte", note: "Customers love picking up kits here." },
-    { id: 5, name: "Bloom Hub Kreuzberg", type: "pickup", lat: 52.4938, lng: 13.4170, addr: "Bergmannstr. 24, Kreuzberg", note: "Workshops every Saturday." },
-    { id: 6, name: "Espresso Park", type: "drop", lat: 52.5079, lng: 13.4525, addr: "Boxhagener Str. 41, Friedrichshain", note: "Organic single-origin only." },
-    { id: 7, name: "Daily Grind", type: "drop", lat: 52.5430, lng: 13.3550, addr: "Schönhauser Allee 130, P-Berg", note: "Open 7 days a week." },
-    { id: 8, name: "Bloom Hub Wedding", type: "pickup", lat: 52.5440, lng: 13.3680, addr: "Müllerstr. 156a, Wedding", note: "Community garden out back." },
+    { id: 1, name: "Café Roest", type: "drop", lat: 47.4125, lng: 9.7417, addr: "Marktstraße 12, Dornbirn", note: "Saves 50 kg of grounds every month." },
+    { id: 2, name: "Bloom Hub Bregenz", type: "pickup", lat: 47.5031, lng: 9.7471, addr: "Kaiserstraße 28, Bregenz", note: "Pick up your kit & substrate refills." },
+    { id: 3, name: "Drip & Co", type: "drop", lat: 47.2382, lng: 9.5996, addr: "Neustadt 14, Feldkirch", note: "Daily 3kg of premium grounds." },
+    { id: 4, name: "The Loop", type: "drop", lat: 47.5050, lng: 9.7400, addr: "Rathausstraße 6, Bregenz", note: "Customers love picking up kits here." },
+    { id: 5, name: "Bloom Hub Dornbirn", type: "pickup", lat: 47.4100, lng: 9.7350, addr: "Schulgasse 9, Dornbirn", note: "Workshops every Saturday." },
+    { id: 6, name: "Espresso Park", type: "drop", lat: 47.4264, lng: 9.6581, addr: "Maria-Theresien-Straße 3, Lustenau", note: "Organic single-origin only." },
+    { id: 7, name: "Daily Grind", type: "drop", lat: 47.3656, lng: 9.6878, addr: "Bahnhofstraße 22, Hohenems", note: "Open 7 days a week." },
+    { id: 8, name: "Bloom Hub Bludenz", type: "pickup", lat: 47.1547, lng: 9.8221, addr: "Mutterstraße 4, Bludenz", note: "Community garden out back." },
   ];
 
-  const map = L.map("leaflet-map", { zoomControl: true, scrollWheelZoom: false }).setView([52.5145, 13.405], 12);
+  const map = L.map("leaflet-map", { zoomControl: true, scrollWheelZoom: false }).setView([47.38, 9.72], 11);
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
