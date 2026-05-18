@@ -119,18 +119,6 @@ document.querySelectorAll(".blog-categories button").forEach((btn) => {
   });
 });
 
-/* ---------- Kit gallery thumbnails ---------- */
-const kitMainImg = document.getElementById("kitMainImg");
-if (kitMainImg) {
-  document.querySelectorAll(".kit-thumb").forEach((thumb) => {
-    thumb.addEventListener("click", () => {
-      kitMainImg.src = thumb.dataset.src;
-      document.querySelectorAll(".kit-thumb").forEach((t) => t.classList.remove("active"));
-      thumb.classList.add("active");
-    });
-  });
-}
-
 /* ---------- Leaflet map (only if present) ---------- */
 const mapEl = document.getElementById("leaflet-map");
 if (mapEl && typeof L !== "undefined") {
